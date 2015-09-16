@@ -1,0 +1,24 @@
+%YAML:1.0
+image_width: 640
+image_height: 480
+camera_name: quickcam_left
+camera_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [555.509871, 0.000000, 304.386180, 0.000000, 555.560469, 266.268911, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.009317, 0.009514, 0.001835, 0.000041, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [0.934734, 0.033906, 0.353726, -0.039302, 0.999195, 0.008081, -0.353167, -0.021456, 0.935314]
+projection_matrix:
+  rows: 3
+  cols: 4
+  dt: d
+  data: [2524.507283, 0.000000, 326.513637, 0.000000, 0.000000, 2524.507283, 265.519341, 0.000000, 0.000000, 0.000000, 1.00000, 0.000000]

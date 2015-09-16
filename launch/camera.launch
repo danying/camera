@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="camera" type="cameranode" name="cameranode" output="screen" respawn="true">
+    <param name="width" type="int" value="640" />
+    <param name="height" type="int" value="480" />
+    <param name="fps" type="int" value="30" />
+    <param name="frame_id" type="string" value="camera" />
+    <param name="device_id" type="int" value="0" />
+    <param name="camera_name" type="string" value="camera" />
+    <param name="cam_info_url" type="string" value="file://$(find camera)/camera_info/2014/camera.yaml"/>
+  </node>
+</launch>
